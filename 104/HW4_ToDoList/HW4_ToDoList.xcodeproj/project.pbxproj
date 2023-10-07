@@ -61,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				14EA49032AC9FE360023486E /* ViewControllers */,
-				14EA49022AC9FE170023486E /* Resouttces */,
+				14EA49022AC9FE170023486E /* Resources */,
 				14EA49012AC9FDEF0023486E /* Application */,
 			);
 			path = HW4_ToDoList;
@@ -76,14 +76,14 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		14EA49022AC9FE170023486E /* Resouttces */ = {
+		14EA49022AC9FE170023486E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				14EA48F62AC9FD110023486E /* Assets.xcassets */,
 				14EA48F82AC9FD110023486E /* LaunchScreen.storyboard */,
 				14EA48FB2AC9FD110023486E /* Info.plist */,
 			);
-			path = Resouttces;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		14EA49032AC9FE360023486E /* ViewControllers */ = {

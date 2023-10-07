@@ -9,8 +9,9 @@ import UIKit
 
 class TaskViewController: UIViewController, UITableViewDelegate, UserCellDelegate {
     func didPressDetailDisclosure() {
-        <#code#>
+        return;
     }
+    
     
     
     var tasks: [Task] = []
