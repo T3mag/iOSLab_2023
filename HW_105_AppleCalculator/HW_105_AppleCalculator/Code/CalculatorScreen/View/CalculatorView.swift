@@ -401,6 +401,7 @@ class CalculatorView: UIView {
         
         let multyplyAction: UIAction = UIAction { [weak self] _ in
             if self?.firstEllment != nil && self?.currentOperation != nil {
+                self?.calculatorLabel.text = ""
                 self?.secondEllement = self?.calculatorLabel.text
                 self?.calculatorLabel.text = self?.calculateExmpl?.Calculate(operations: (self?.currentOperation)!, firstIndex: (self?.firstEllment)!, secondIndex: (self?.calculatorLabel.text)!)
                 self?.secondEllement = self?.calculateExmpl?.Calculate(operations: (self?.currentOperation)!, firstIndex: (self?.firstEllment)!, secondIndex: (self?.calculatorLabel.text)!)
@@ -409,7 +410,6 @@ class CalculatorView: UIView {
             else {
                 self?.firstEllment = self?.calculatorLabel.text
                 self?.currentOperation = .multyply
-                self?.calculatorLabel.text = ""
             }
         }
         multiplicationButton.addAction(multyplyAction, for: .touchUpInside)

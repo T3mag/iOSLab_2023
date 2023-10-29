@@ -15,7 +15,7 @@ class CalculatorViewController: UIViewController {
     ///  Экземпляр класс Model
     var calcModel: MafmaticOperationManager = MafmaticOperationManager()
     
-    /// Запуск экрана и присвоение его view для более простой раоты
+    /// Запуск экрана и присвоение его view] для более простой раоты
     override func loadView() {
         view = calcView
     }
